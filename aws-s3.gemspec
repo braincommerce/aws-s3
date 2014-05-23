@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map { |f| File.basename(f) }
   s.require_paths = ['lib']
 
-  s.extra_rdoc_files  = %w(README COPYING INSTALL)
+  s.extra_rdoc_files  = %w(README.rdoc COPYING INSTALL)
   s.rdoc_options  = ['--title', "AWS::S3 -- Support for Amazon S3's REST api",
                      '--main',  'README',
                      '--line-numbers', '--inline-source']
